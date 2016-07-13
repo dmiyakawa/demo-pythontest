@@ -5,7 +5,7 @@ import main
 
 class TestSequenceFunctions(unittest.TestCase):
     def testAdd(self):
-        self.assertEqual(3, main.add(1, 2))
+        self.assertEqual(4, main.add(1, 2))
 
 if __name__ == '__main__':
     unittest.main()
